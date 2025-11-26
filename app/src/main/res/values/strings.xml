@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Course Manager</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Course Manager</string>
+    <string name="second_fragment_label">Course Manager</string>
+    <string name="third_fragment_label">Course Manager</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="cancel">Cancel</string>
+    <string name="timeline">Timeline</string>
+
+    <string name="hello_first_fragment_student">Student Landing Page</string>
+    <string name="hello_second_fragment_student">Add Courses</string>
+    <string name="hello_third_fragment_student"> Degree Schedule</string>
+    <string name="action_register">Register</string>
+    <string name="title_activity_main_admin">MainActivityAdmin</string>
+    <string name="first_fragment_admin">Admin Landing Page</string>
+    <string name="hello_second_fragment_admin">Hello second fragment. Arg: %1$s</string>
+    <string name="back_button_text">Logout</string>
+    <string name="courses_taken_name">Courses Taken</string>
+    <string name="courses_wanted_name">Courses to Schedule</string>
+
+    <string name="add_course">Add Course</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="offering_sessions">Offering Sessions</string>
+    <string name="fall">Fall</string>
+    <string name="winter">Winter</string>
+    <string name="summer">Summer</string>
+    <string name="create_course">Create New Course</string>
+    <string name="prereq">Prerequisites</string>
+    <string name="prereqHint">Add a prerequisite</string>
+
+    <string name="edit_course">Edit </string>
+    <string name="edit_button">Change Course</string>
+
+    <string name="delete_cancel_msg">Cancel</string>
+    <string name="delete_delete_msg">Confirm Delete</string>
+    <string name="delete_msg">Are you sure you want to delete this course? It will erase it from the prerequisites of all other courses.</string>
+
+</resources>

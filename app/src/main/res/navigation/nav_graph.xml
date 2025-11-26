@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.coursemanager.FirstFragmentStudent"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first_student">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_self"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_thirdFragmentStudent"
+            app:destination="@id/thirdFragmentStudent" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.coursemanager.SecondFragmentStudent"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second_student">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragmentStudent"
+        android:name="com.example.coursemanager.ThirdFragmentStudent"
+        android:label= "@string/third_fragment_label"
+        tools:layout="@layout/fragment_third_student" >
+        <action
+            android:id="@+id/action_thirdFragmentStudent_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>
